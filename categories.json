@@ -1,0 +1,70 @@
+
+[
+    {
+        "id": 1,
+        "image": "Assets/menu_complet.jpg",
+        "titre": "Les Menus",
+        "detail": "(Le menu est composé d’un burger, wrap ou sandwich. L’accompagnement est une portion de frites et une boisson au choix de 33cl)"
+
+    },
+    {
+        "id": 2,
+        "image": "Assets/burgers.png",
+        "titre": "Les Burgers",
+        "detail": "(Le burger est composé d'un pain moelleux, d'une viande, d’un morceaude poulet frit ou d'un filet de poisson pané, de fromage fondant, de légumes frais(laitue, tomates), et de sauces variées(ketchup, mayo, sauce spéciale))"
+    },
+    {
+        "id": 3,
+        "image": "Assets/sandwichs.png",
+        "titre": "Les Sandwichs",
+        "detail": "(Un sandwich, souvent garni de laitue, tomates, et une sauce légère est composé d'une viande, d’un morceau de poulet frit ou d'un filet de poisson pané)"
+    },
+    {
+        "id": 4,
+        "image": "Assets/wrapp.png",
+        "titre": "Les Wrapps",
+        "detail": "Tortilla moelleuse garnie de morceaux de poulet grillé ou croustillant, laitue, tomates, fromage râpé, et une sauce ranch. "
+    },
+    {
+        "id": 5,
+        "image": "Assets/frites.jpg",
+        "titre": "Les Frites",
+        "detail": "Les classiques frites dorées, croustillantes à l'extérieur et moelleuses à l'intérieur, généralement proposées en petite, moyenne ou grande portion."
+    },
+    {
+        "id": 6,
+        "image": "Assets/coca.jpg",
+        "titre": "Les Boissons",
+        "detail": "Nos boissons froides sont soient gazeuses (soda, eau pétillante) soient plates(eau plate)"
+    },
+    {
+        "id": 7,
+        "image": "Assets/dessert.png",
+        "titre": "Les Desserts",
+        "detail": "À déguster à l’ heure du goûter ou encore en fin de repas, nos desserts sont fruités, glacés ou pâtissiers, pour pouvoir répondre à toutes les envies gourmandes!"
+    },
+    {
+        "id": 8,
+        "image": "Assets/Onion-Rings.png",
+        "titre": "Les Encas",
+        "detail": "Petits plats ou des collations rapides qui peuvent être consommés entre les repas ou comme complément à un menu principal"
+    },
+    {
+        "id": 9,
+        "image": "Assets/menu_complet.jpg",
+        "titre": "Les Offres Spéciales",
+        "detail": "Ces offres permettent de commander deux ou trois menus complets à un prix réduit.Elles sont idéales pour les couples ou les groupes d'amis qui souhaitent partager un repas"
+    },
+    {
+        "id": 10,
+        "image": "Assets/salades.png",
+        "titre": "Les Salades",
+        "detail": ""
+    },
+    {
+        "id": 11,
+        "image": "Assets/sauces.png",
+        "titre": "Les Sauces",
+        "detail": ""
+    }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WacDo: commander vos menus, burgers, sandwichs, wrapps, salades accompagnés de frites dorées dans tous nos
+        restaurants de France.</title>
+    <link rel="icon" href="Assets/favicon.ico" type="image/x-icon"> <!-- type à modifier -->
+    <meta name="description"
+        content="Découvrez nos menus, nos burgers, nos sandwichs, nos wrapps, et desserts sans oubliez nos alléchants encas et offres spéciales pour votre plus grands plaisir.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="barHeader">
+            <h1 class="titre">Créer votre Menu</h1>
+        </div>
+    </header>
+    <div class="containerCommande">
+
+        <!-- Sélection du burger -->
+        <label for="burger">Choisissez votre burger:</label>
+        <select id="burger">
+            <option value="Wac'O Fish - 6€">Wac'O Fish - 6€</option>
+            <option value="Wac Bacon - 6€">Wac Bacon - 6€</option>
+            <option value="Wac Cheese - 6€">Wac Cheese - 6€</option>
+            <option value="Wac Chicken - 6€">Wac Chicken - 6€</option>
+        </select>
+
+        <!-- Sélection des frites -->
+        <label for="frites">Choisissez vos frites:</label>
+        <select id="frites">
+            <option value="Petites Frites - 2€">Petites Frites - 2€</option>
+            <option value="Frites Moyennes - 3€">Frites Moyennes - 3€</option>
+            <option value="Frites Grandes - 5€">Frites Grandes - 5€</option>
+        </select>
+
+        <!-- Sélection de la boisson -->
+        <label for="boisson">Choisissez votre boisson:</label>
+        <select id="boisson">
+            <option value="Coca-Cola - 3€">Coca-Cola - 3€</option>
+            <option value="Fanta - 3€">Fanta - 3€</option>
+            <option value="Eau  - 2€">Eau  - 2€</option>
+            <option value="Sprite  - 3€">Eau  - 3€</option>
+        </select>
+
+        <!-- Bouton pour générer le ticket -->
+        <button onclick="genererTicket()">Générer le Ticket de Commande</button>
+
+        <!-- Affichage du ticket -->
+        <div id="ticket"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

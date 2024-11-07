@@ -1,0 +1,220 @@
+{
+    "menus": [
+        {
+            "id": 1,
+            "image": "Assets/ofish.png",
+            "nom": "Menu Wac'O Fish",
+            "detail": "Un pain brioché légèrement toasté, garni d'un filet de poisson blanc, pané et frit, recouvert d'une tranche de fromage fondant, de laitue croquante, de tomates fraîches, et de sauce spéciale.",
+            "prix": 9.90
+        },
+        {
+            "id": 2,
+            "image": "Assets/bacon.png",
+            "nom": "Menu Wac Bacon",
+            "detail": "Un pain brioché légèrement toasté, garni d'un steak de bœuf juteux et d‘une tranche de bacon, recouvert d'une tranche de fromage fondant, de laitue croquante, de tomates fraîches, et de sauce spéciale.",
+            "prix": 10.10
+        },
+        {
+            "id": 3,
+            "image": "Assets/cheese.png",
+            "nom": "Menu Wac Cheese",
+            "detail": "Un pain brioché légèrement toasté, garni d'un steak de bœuf juteux, recouvert d'une tranche de fromage fondant, de laitue croquante, de tomates fraîches, et de sauce spéciale.",
+            "prix": 10.20
+        },
+        {
+            "id": 4,
+            "image": "Assets/chicken.png",
+            "nom": "Menu Wac Chicken",
+            "detail": "Un pain brioché légèrement toasté, garni d'un morceau de poulet pané et frit, recouvert d'une tranche de fromage fondant, de laitue croquante, de tomates fraîches, et de sauce spéciale.",
+            "prix": 10.30
+        }
+    ],
+    "burgers": [
+        {
+            "id": 5,
+            "image": "Assets/ofish.png",
+            "nom": "Wac'O Fish",
+            "detail": "Un pain brioché légèrement toasté, garni d'un filet de poisson blanc, pané et frit, recouvert d'une tranche de fromage fondant, de laitue croquante, de tomates fraîches, et de sauce spéciale.",
+            "prix": 6.00
+        },
+        {
+            "id": 6,
+            "image": "Assets/bacon.png",
+            "nom": "Wac Bacon",
+            "detail": "Un pain brioché légèrement toasté, garni d'un steak de bœuf juteux et d‘une tranche de bacon, recouvert d'une tranche de fromage fondant, de laitue croquante, de tomates fraîches, et de sauce spéciale.",
+            "prix": 6.10
+        },
+        {
+            "id": 7,
+            "image": "Assets/cheese.png",
+            "nom": "Wac Cheese",
+            "detail": "Un pain brioché légèrement toasté, garni d'un steak de bœuf juteux, recouvert d'une tranche de fromage fondant, de laitue croquante, de tomates fraîches, et de sauce spéciale.",
+            "prix": 6.20
+        },
+        {
+            "id": 8,
+            "image": "Assets/chicken.png",
+            "nom": "Wac Chicken",
+            "detail": "Un pain brioché légèrement toasté, garni d'un morceau de poulet pané et frit, recouvert d'une tranche de fromage fondant, de laitue croquante, de tomates fraîches, et de sauce spéciale.",
+            "prix": 6.30
+        }
+    ],
+    "boissons": [
+        {
+            "id": 9,
+            "image": "Assets/coca.jpg",
+            "nom": "Coca cola",
+            "prix": 3.10
+        },
+        {
+            "id": 10,
+            "image": "Assets/fanta.jpg",
+            "nom": "Fanta",
+            "prix": 3.10
+        },
+        {
+            "id": 11,
+            "image": "Assets/eau.jpg",
+            "nom": "Eau",
+            "prix": 3.10
+        },
+        {
+            "id": 12,
+            "image": "Assets/sprite.jpg",
+            "nom": "Sprite",
+            "prix": 3.10
+        }
+    ],
+    "frites": [
+        {
+            "id": 13,
+            "image": "Assets/frites.jpg",
+            "nom": "Petite frites",
+            "prix": 1.90
+        },
+        {
+            "id": 14,
+            "image": "Assets/frites.jpg",
+            "nom": "Moyenne frites",
+            "prix": 3.10
+        },
+        {
+            "id": 15,
+            "image": "Assets/frites.jpg",
+            "nom": "Grande frites",
+            "prix": 3.10
+        }
+    ],
+    "encas": [
+        {
+            "id": 16,
+            "image": "Assets/Mozzarella-Sticks.png",
+            "nom": "Mozzarella Sticks",
+            "prix": 5.90
+        },
+        {
+            "id": 17,
+            "image": "Assets/Chicken-Nuggets.png",
+            "nom": "Chicken Nuggets",
+            "prix": 5.90
+        },
+        {
+            "id": 18,
+            "image": "Assets/Onion-Rings.png",
+            "nom": "Onion Rings",
+            "prix": 5.90
+        }
+    ],
+    "desserts": [
+        {
+            "id": 19,
+            "image": "Assets/pomme.png",
+            "nom": "Pomme",
+            "prix": 2.00
+        },
+        {
+            "id": 20,
+            "image": "Assets/cookie.jpg",
+            "nom": "Cookie",
+            "prix": 2.50
+        },
+        {
+            "id": 21,
+            "image": "Assets/donuts.png",
+            "nom": "Donut",
+            "prix": 2.50
+        },
+        {
+            "id": 22,
+            "image": "Assets/glace.png",
+            "nom": "Glace Chocolat Noisette",
+            "prix": 3.50
+        }
+    ],
+    "salades": [
+        {
+            "id": 23,
+            "image": "Assets/salades.png",
+            "nom": "Wac César",
+            "prix": 6.00
+        },
+        {
+            "id": 24,
+            "image": "Assets/salades.png",
+            "nom": "Wac Cobb",
+            "prix": 6.10
+        },
+        {
+            "id": 25,
+            "image": "Assets/salades.png",
+            "nom": "Wac Fruitz",
+            "prix": 6.20
+        },
+        {
+            "id": 26,
+            "image": "Assets/salades.png",
+            "nom": "Wac Advocat",
+            "prix": 6.30
+        }
+    ],
+    "wrapps": [
+        {
+            "id": 27,
+            "image": "Assets/wrapp.png",
+            "nom": "Chicken Caesar Wrap",
+            "prix": 7.20
+        },
+        {
+            "id": 28,
+            "image": "Assets/wrapp.png",
+            "nom": "Spicy Buffalo Chicken Wrap",
+            "prix": 7.20
+        },
+        {
+            "id": 29,
+            "image": "Assets/wrapp.png",
+            "nom": "Veggie Mediterranean Wrap",
+            "prix": 7.20
+        }
+    ],
+    "sauces": [
+        {
+            "id": 30,
+            "image": "Assets/mayonnaise.png",
+            "nom": "Mayonnaise",
+            "prix": 0.60
+        },
+        {
+            "id": 31,
+            "image": "Assets/miel.png",
+            "nom": "Moutarde au Miel",
+            "prix": 0.60
+        },
+        {
+            "id": 32,
+            "image": "Assets/ketchup.jpg",
+            "nom": "Ketchup",
+            "prix": 0.60
+        }
+    ]
+}

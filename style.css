@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1, 9rem;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 130px;
+}
+
+/*** ECRAN DE VEILLE ***/
+/* Fond ecran */
+.bgImage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url('Assets/logo_wacdo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* bouton cta commander */
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #cfcdcd;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #000;
+    font-size: 2.5rem;
+    display: flex;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Effet hover sur le bouton */
+a:hover {
+    background-color: rgba(225, 226, 235, 0.717);
+}
+
+/*** ECRAN DU CHOIX (SUR PLACE/A EMPORTER)  ***/
+/* Barre du header des bornes */
+.barHeader {
+    background-color: #F9DE62;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Logo dans barre du header  */
+.barHeader img {
+    height: 7vh;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Déplacer les boutons au centre de la page */
+.choix {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 93vh;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/*** ECRAN D'ACCUEIL  ***/
+.accueil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Styles des sections */
+.menu-section {
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+    background-color:#cfcdcd;
+}
+.menu-section:hover {
+    background-color: rgba(225, 226, 235, 0.717);
+}
+
+.menu-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+
+.menu-item img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+}
+
+.menu-item p {
+    color: #666;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produitButton {
+    display: flex;
+    width: 70%;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #cfcdcd;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #000;
+    border: none;
+    align-items: center;
+    text-align: center;    
+}
+
+.categories {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produitButton:hover {
+    background-color: rgba(225, 226, 235, 0.717);
+}
+
+.produitImage {
+    width: 130px;
+}
+
+.produitInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.produitNom {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.productDetail {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Effet sur les box */
+.box:hover {
+    transform: scale(0.9);
+}
+
+/*** ECRAN DU MENU  ***/
+/* text du header */
+.titre {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #000;
+}
+
+/* bouton retour */
+.retour {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.buttonRetour {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #cfcdcd;
+    cursor: pointer;
+    color: #000;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+/*** ECRAN DES BOISSONS  ***/
+/* box boissons */
+.categories .boxBoisson {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 180px;
+    background-color: #fbf5ee14;
+    border-radius: 18px;
+    padding: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+    transition: 0.25s;
+}
+.produitBoisson{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 180px;
+    background-color: #fbf5ee14;
+    border-radius: 18px;
+    padding: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+    transition: 0.25s;
+}
+
+/*** ECRAN DE PERSONNALISATION  ***/
+/* arrow dans le header */
+.arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: auto;
+}
+
+/* texte  */
+.textModif {
+    
+}
+/*** ECRAN DES COMMANDES  ***/
+.containerCommande {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+#ticket {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px dashed #333;
+    background-color: #f0f0f0;
+}
+
+#ticket h3 {
+    text-align: center;
+}
+
+/* liste des ingrédients */
+
+/**************************************************************************/
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#products,
+#menu {
+    width: 45%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    text-align: center;
+}
+
+.product button,
+#create-menu {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover,
+#create-menu:hover {
+    background-color: #ff4500;
+}
+
+#selected-menu {
+    min-height: 100px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* MEDIA QUERIES */
